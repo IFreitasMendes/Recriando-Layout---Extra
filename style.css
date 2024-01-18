@@ -9,13 +9,17 @@ body{
 h1{
   margin: 32px auto;
   font-family: 'Dosis';
+  font-size: 32px;
 }
 
 h1 span{
   color: #EE24FF;
+  font-weight: 700;
 }
 p, #footer {
   font-family: 'Open sans';
+  font-size: 15px;
+  line-height: 22px;
 }
 #linha{
   width: 391px;
