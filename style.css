@@ -1,0 +1,25 @@
+body{
+  text-align: center;
+}
+#main {
+  margin: 64px auto ;
+  width: 626px;
+  height: 486px;
+  }
+h1{
+  margin: 32px auto;
+}
+#linha{
+  width: 391px;
+  border: black solid 1px;
+  margin: auto;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 42px;
+}
+ul li {
+  list-style: none;
+  }
