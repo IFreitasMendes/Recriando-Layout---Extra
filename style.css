@@ -1,6 +1,6 @@
 body{
   text-align: center;
-}
+ }
 #main {
   margin: 64px auto ;
   width: 626px;
@@ -8,6 +8,14 @@ body{
   }
 h1{
   margin: 32px auto;
+  font-family: 'Dosis';
+}
+
+h1 span{
+  color: #EE24FF;
+}
+p, #footer {
+  font-family: 'Open sans';
 }
 #linha{
   width: 391px;
