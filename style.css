@@ -1,27 +1,32 @@
-body{
+body {
   text-align: center;
- }
+}
 #main {
-  margin: 64px auto ;
+  margin: 64px auto;
   width: 626px;
   height: 486px;
-  }
-h1{
+}
+h1 {
   margin: 32px auto;
   font-family: 'Dosis';
   font-size: 32px;
 }
 
-h1 span{
-  color: #EE24FF;
+h1 span {
+  color: #ee24ff;
   font-weight: 700;
 }
-p, #footer {
+p{
+  max-width: 540px;
+  margin-inline: auto;
+}
+p,
+#footer {
   font-family: 'Open sans';
   font-size: 15px;
   line-height: 22px;
-}
-#linha{
+  }
+#linha {
   width: 391px;
   border: black solid 1px;
   margin: auto;
@@ -31,7 +36,16 @@ ul {
   justify-content: center;
   flex-direction: row;
   gap: 42px;
+  
 }
 ul li {
   list-style: none;
-  }
+  
+}
+ul li a { 
+  text-decoration: none;
+  color: #3F3D56;
+}
+#decoracaofooter{
+  margin-top: 40px;
+}
